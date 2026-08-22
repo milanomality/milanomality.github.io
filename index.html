@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Danil Dragunskiy — C++ Systems Engineer</title>
+<meta name="description" content="Danil Dragunskiy, C++ systems engineer in Kaliningrad. Out-of-core data pipelines, binary parsers, crash handling, video processing and cross-platform delivery.">
+<meta name="author" content="Danil Dragunskiy">
+<meta name="theme-color" content="#08080a">
+
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Danil Dragunskiy — C++ Systems Engineer">
+<meta property="og:description" content="Out-of-core data pipelines, binary parsers, crash handling, video processing and cross-platform delivery.">
+<meta property="og:locale" content="en">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,300..900&family=JetBrains+Mono:wght@300;400;500&display=swap">
+<link rel="stylesheet" href="assets/styles.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2308080a'/%3E%3Ccircle cx='16' cy='16' r='7' fill='none' stroke='%23f2f2f0' stroke-width='2'/%3E%3C/svg%3E">
+<script>document.documentElement.className = 'js';</script>
+</head>
+<body>
+<!--
+THESIS: A record read beside a climb. Text holds the left, a climbing wall holds the right, and a figure works up it as the page is scrolled. Refuses the portfolio template and refuses decoration: the only moving thing on the page is doing the same work the copy describes.
+OWN-WORLD: Near-black (#08080a) panelled wall with a T-nut lattice and panel seams, moulded holds lit from above left, a white stick figure whose pose is solved rather than posed. One hairline at 16% ink. Archivo grotesque for everything, JetBrains Mono for measurements only. No colour anywhere.
+STORY: A recruiter or client sees a serious systems engineer within one viewport, follows the record through two employers and the AI-agent turn, and leaves via GitHub or LeetCode.
+FIRST VIEWPORT: Name set left at poster scale under a hairline; the wall enters at 46vw on the right with the climber mid-route, hands overhead on two holds.
+FORM: Brief-pinned by the user: a person climbing a wall, a stick figure is acceptable, but the hands and feet must animate as they are moved. The pin overrides direction seed d94789c2 / assigned index 7.
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md
+-->
+
+<div class="veil" id="veil" aria-hidden="true"><span class="veil__line"></span></div>
+
+<a class="skip" href="#chapter-summit">Skip to contacts</a>
+
+<div class="stage" aria-hidden="true">
+  <canvas id="wall" class="stage__wall"></canvas>
+  <span class="stage__edge"></span>
+</div>
+
+<nav class="rail" id="rail" aria-label="Ascent progress">
+  <span class="rail__line"><span class="rail__fill" id="railFill"></span></span>
+  <ol class="rail__ticks" id="railTicks"></ol>
+</nav>
+
+<main class="content">
+
+  <!-- ══ BASECAMP ══ -->
+  <section class="chapter chapter--hero" id="chapter-basecamp" data-chapter="Basecamp" data-mark="2006">
+    <div class="panel">
+      <div class="hero">
+        <span class="hero__rule" data-rule></span>
+        <h1 class="hero__name">
+          <span class="line"><span>Danil</span></span>
+          <span class="line"><span>Dragunskiy</span></span>
+        </h1>
+        <p class="hero__role" data-fade>C++ systems engineer</p>
+        <p class="hero__lede" data-fade>I build the parts that must not lose data and must not fall over: out-of-core pipelines, binary parsers, crash handlers, and the builds that ship them.</p>
+        <dl class="hero__data" data-fade>
+          <div><dt>Based</dt><dd>Kaliningrad, RU</dd></div>
+          <div><dt>Commercial</dt><dd><span class="mono">1 y 11 m</span></dd></div>
+          <div><dt>Since</dt><dd><span class="mono">Oct 2024</span></dd></div>
+        </dl>
+      </div>
+      <p class="cue" data-fade><span class="cue__word">Begin the ascent</span><span class="cue__track"><span class="cue__dot"></span></span></p>
+    </div>
+  </section>
+
+  <!-- ══ THE CLIMB ══ -->
+  <section class="chapter" id="chapter-climb" data-chapter="The climb" data-mark="2024">
+    <div class="panel">
+      <div class="block">
+        <h2 class="h-display"><span class="line"><span>Two years up a face</span></span><span class="line"><span>that keeps getting steeper.</span></span></h2>
+        <p class="body" data-fade>Twenty years old, almost two years of commercial C++, earned while finishing a degree in Information Systems and Technologies. My work sits close to the metal: Linux, POSIX, CMake, Ninja, gdb, GoogleTest. I read and write technical English freely, and I like the problems where performance and reliability turn out to be the same problem.</p>
+        <ul class="facts" data-stagger>
+          <li><span class="facts__v mono" data-count="23" data-suffix=" mo">23 mo</span><span class="facts__k">Commercial C++</span></li>
+          <li><span class="facts__v mono" data-count="2">2</span><span class="facts__k">Companies</span></li>
+          <li><span class="facts__v mono">B2</span><span class="facts__k">English</span></li>
+          <li><span class="facts__v mono">2027</span><span class="facts__k">Degree due</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ FELENASOFT ══ -->
+  <section class="chapter" id="chapter-felenasoft" data-chapter="FelenaSoft" data-mark="2024">
+    <div class="panel">
+      <div class="block">
+        <h2 class="h-display"><span class="line"><span>Video, at the speed</span></span><span class="line"><span>the hardware allows.</span></span></h2>
+        <p class="post" data-fade>
+          <span class="post__org">FelenaSoft Company Ltd.</span>
+          <span class="post__meta mono">C++ Developer · Kaliningrad · Oct 2024 – Mar 2026 · 1 y 6 m</span>
+        </p>
+        <ul class="ledger" data-stagger>
+          <li><span class="ledger__t">Surveillance &amp; multimedia</span><span class="ledger__d">Built and maintained C++ components for video surveillance systems and multimedia applications.</span></li>
+          <li><span class="ledger__t">Whole modules, end to end</span><span class="ledger__d">Architecture, implementation, testing and debugging of cross-platform code. The full cycle, not a slice of it.</span></li>
+          <li><span class="ledger__t">Video &amp; 3D graphics</span><span class="ledger__d">Work where performance and resource discipline decide whether the feature ships at all.</span></li>
+          <li><span class="ledger__t">FFmpeg, on Xeoma</span><span class="ledger__d">Hands-on FFmpeg work inside Xeoma, an application for surveillance cameras.</span></li>
+          <li><span class="ledger__t">Review as a habit</span><span class="ledger__d">Reviewed code and pushed the practices that made the product more reliable, in a team that shipped constantly new problems.</span></li>
+          <li><span class="ledger__t">POSIX daily</span><span class="ledger__d">gcc, make, gdb, the command line. The tools underneath the tools.</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ METADESK ══ -->
+  <section class="chapter" id="chapter-metadesk" data-chapter="Metadesk" data-mark="2026">
+    <div class="panel">
+      <div class="block block--wide">
+        <h2 class="h-display"><span class="line"><span>Files that don't fit</span></span><span class="line"><span>in memory. Software</span></span><span class="line"><span>that doesn't fall over.</span></span></h2>
+        <p class="post" data-fade>
+          <span class="post__org">Metadesk</span>
+          <span class="post__meta mono">C++ Developer · Moscow · Apr 2026 – present</span>
+        </p>
+        <ol class="pitches" data-stagger>
+          <li>
+            <h3>Out-of-core</h3>
+            <p>Implemented lazy loading and streaming processing for large datasets, so the application works with files larger than the memory it has.</p>
+          </li>
+          <li>
+            <h3>Fault tolerance</h3>
+            <p>Parsers for domain-specific binary and text formats, a thread-safe logging system, and a crash handler that writes a backtrace dump instead of vanishing.</p>
+          </li>
+          <li>
+            <h3>High-load UI</h3>
+            <p>Table components carrying heavy data, with flexible filtering, saved view profiles, and a state comparison engine that diffs one view against another.</p>
+          </li>
+          <li>
+            <h3>Delivery</h3>
+            <p>Cross-platform build and distribution on GitLab CI, WiX and .deb, gated by unit tests in GoogleTest, static analysis, and compiler flags nobody is allowed to silence.</p>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ THE TURN ══ -->
+  <section class="chapter chapter--turn" id="chapter-turn" data-chapter="The turn" data-mark="2026">
+    <div class="panel">
+      <div class="block block--low">
+        <h2 class="h-display h-display--xl"><span class="line"><span>Then I stopped climbing</span></span><span class="line"><span>with my hands only.</span></span></h2>
+        <p class="body" data-fade>At Metadesk I introduced agentic development with Claude Code and rebuilt the way the team works. Our standards became prompts, so the code stayed consistent regardless of who, or what, wrote it. The routine went to the agent: navigation, test generation, basic refactoring. The delivery cycle got shorter, and the engineering judgement stayed where it belongs.</p>
+        <ul class="triad" data-stagger>
+          <li>Standards codified as prompts</li>
+          <li>Routine delegated to the agent</li>
+          <li>Shorter cycle, same judgement</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ TOOLCHAIN ══ -->
+  <section class="chapter" id="chapter-toolchain" data-chapter="Toolchain" data-mark="—">
+    <div class="panel">
+      <div class="block block--wide">
+        <h2 class="h-display"><span class="line"><span>The toolchain.</span></span></h2>
+        <div class="kit" data-stagger>
+          <div class="kit__row"><h3>Languages</h3><p>C++ · Python · Bash</p></div>
+          <div class="kit__row"><h3>Core</h3><p>STL · Boost · Qt · lock-free · algorithms &amp; data structures · refactoring</p></div>
+          <div class="kit__row"><h3>Systems</h3><p>Linux · POSIX · TCP/IP · network protocols</p></div>
+          <div class="kit__row"><h3>Build</h3><p>CMake · Ninja · make · g++ · clang · gdb</p></div>
+          <div class="kit__row"><h3>Quality</h3><p>Unit testing · GoogleTest · static analysis · code review</p></div>
+          <div class="kit__row"><h3>Delivery</h3><p>Git · SVN · GitLab CI · WiX · .deb · Agile</p></div>
+          <div class="kit__row"><h3>Platforms</h3><p>Cross-platform development · macOS · Xcode · iOS · Android · Android SDK · Android Studio</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ RECORD ══ -->
+  <section class="chapter" id="chapter-record" data-chapter="Record" data-mark="2027">
+    <div class="panel">
+      <div class="block">
+        <h2 class="h-display"><span class="line"><span>The record.</span></span></h2>
+        <dl class="record" data-stagger>
+          <div>
+            <dt>Education</dt>
+            <dd>
+              <strong>Immanuel Kant Baltic Federal University</strong>, Kaliningrad — Institute of Physical and Mathematical Sciences and Information Technology. Information Systems and Technologies.
+              <span class="mono record__note">In progress · expected 2027</span>
+            </dd>
+          </div>
+          <div>
+            <dt>Languages</dt>
+            <dd>Russian is my first language. English at <span class="mono">B2</span>, upper-intermediate; I read and write technical documentation freely.</dd>
+          </div>
+          <div>
+            <dt>Availability</dt>
+            <dd>Full-time, part-time or project work. On site, remote or hybrid. Based in Kaliningrad; not relocating, open to business trips.</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ SUMMIT ══ -->
+  <section class="chapter chapter--summit" id="chapter-summit" data-chapter="Summit" data-mark="Now">
+    <div class="panel">
+      <div class="block block--center">
+        <h2 class="h-display h-display--xl"><span class="line"><span>The ridge is open.</span></span></h2>
+        <p class="body" data-fade>Everything above is verifiable. Start here.</p>
+        <ul class="links" data-stagger>
+          <li>
+            <a href="https://github.com/milanomality" target="_blank" rel="noopener noreferrer">
+              <span class="links__k">GitHub</span>
+              <span class="links__h mono">github.com/milanomality</span>
+              <svg class="links__arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M9 7h8v8"/></svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://leetcode.com/u/milanomality/" target="_blank" rel="noopener noreferrer">
+              <span class="links__k">LeetCode</span>
+              <span class="links__h mono">leetcode.com/u/milanomality</span>
+              <svg class="links__arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M9 7h8v8"/></svg>
+            </a>
+          </li>
+        </ul>
+        <footer class="colophon" data-fade>
+          <span>Danil Dragunskiy, C++ systems engineer</span>
+          <span class="mono">Kaliningrad, Russia · 2026</span>
+        </footer>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<script src="assets/scene.js"></script>
+<script src="assets/main.js"></script>
+</body>
+</html>
